@@ -21,6 +21,5 @@ buffer = open(url).read
 ingredients = JSON.parse(buffer)
 
 ingredients['drinks'].each do |ingredient|
-  # Ingredient.create!(name: ingredient["strIngredient1"])
-  puts ingredient["strIngredient1"]
+  Ingredient.create!(name: ingredient["strIngredient1"])
 end
