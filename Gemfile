@@ -47,6 +47,8 @@ group :development do
 end
 
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
+
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
